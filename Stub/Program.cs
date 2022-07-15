@@ -83,6 +83,7 @@ namespace Stealerium
                 cThread.SetApartmentState(ApartmentState.STA);
                 cThread.Start();
             }
+            
 
             // Wait threads
             if (wThread != null)
